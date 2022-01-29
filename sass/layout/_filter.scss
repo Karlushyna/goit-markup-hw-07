@@ -1,0 +1,31 @@
+.filter-list {
+  display: flex;
+  justify-content: center;
+}
+.filter-list__gap {
+  margin-bottom: 34px;
+}
+.filter-list__item:not(:last-child) {
+  margin-right: 8px;
+}
+
+.filter-list__button {
+  background-color: var(--background-color);
+  border-radius: 4px;
+  /* min-width: 73px; */
+  padding: 10px 22px;
+  font-family: inherit;
+  @include font(16px, 500, 0.03em, 1.62);
+
+  text-align: center;
+  transition: background-color var(--main-effect), color var(--main-effect),
+    box-shadow var(--main-effect);
+  &:hover,
+  &:focus,
+  .current-button {
+    background-color: var(--accent-color);
+    color: var(--second-priority-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+      0px 2px 2px rgba(0, 0, 0, 0.12);
+  }
+}

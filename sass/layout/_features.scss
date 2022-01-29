@@ -1,0 +1,17 @@
+.features {
+  --card-item: 4;
+}
+.features__title {
+  margin-bottom: 10px;
+  @include font(14px, 700, null, 1.14);
+
+  text-transform: uppercase;
+  color: var(--main-color);
+}
+.icon-box {
+  height: 120px;
+  background-color: var(--background-color);
+  @extend %align-list;
+  justify-content: center;
+  margin-bottom: var(--card-gap);
+}

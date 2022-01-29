@@ -1,0 +1,37 @@
+.clients {
+  background-color: var(--second-priority-color);
+}
+/* .clients-list {
+  display: flex;
+  justify-content: center;
+}
+.clients-item + .clients-item {
+  margin-left: var(--card-gap);
+} */
+.clients__item {
+  --card-item: 6;
+}
+.clients__link {
+  width: 170px;
+  height: 92px;
+  border: 1px solid var(--icon-color);
+  border-radius: 4px;
+  background-color: var(--second-priority-color);
+
+  @extend %align-list;
+  justify-content: center;
+  transition: border var(--main-effect);
+  &:hover,
+  &:focus {
+    border: 1px solid var(--accent-color);
+  }
+}
+
+.clients__icon {
+  fill: var(--icon-color);
+  transition: fill var(--main-effect);
+  .clients__link:hover &,
+  .clients__link:focus & {
+    fill: var(--accent-color);
+  }
+}

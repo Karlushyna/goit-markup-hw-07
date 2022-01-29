@@ -1,0 +1,23 @@
+.about {
+  padding-top: 0;
+}
+.about__card {
+  position: relative;
+  z-index: 1;
+}
+.about__thumb {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+
+  width: 100%;
+  padding: 27px;
+  text-align: center;
+
+  background-color: rgba(47, 48, 58, 0.8);
+}
+.about__text {
+  @include font(14px, bold, null, null);
+  text-transform: uppercase;
+  color: var(--second-priority-color);
+}

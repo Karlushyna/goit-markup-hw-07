@@ -1,0 +1,17 @@
+:root {
+  --accent-color: #2196f3;
+  --main-color: #212121;
+  --main-text-color: #757575;
+  --second-priority-color: #ffffff;
+  --background-color: #f5f4fa;
+  --third-color: #000000;
+  --background-accent: #188ce8;
+  --second-background-color: #2f303a;
+  --header-border-color: #ececec;
+  --card-border: 1px solid #eeeeee;
+  --icon-color: #afb1b8;
+  --card-gap: 30px;
+  --card-item: 3;
+  --main-effect: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  --text-rgba: rgba(117, 117, 117, 0.5);
+}
