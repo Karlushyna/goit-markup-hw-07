@@ -78,20 +78,6 @@ body {
   color: inherit;
 }
 
-.logo {
-  font-family: Raleway;
-  font-size: 26px;
-  font-weight: 700;
-  line-height: 1.19;
-  color: var(--accent-color);
-}
-
-.section {
-  background-color: var(--second-priority-color);
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
 .hidden {
   position: absolute;
   width: 1px;
@@ -101,6 +87,22 @@ body {
   overflow: hidden;
   border: 0;
   clip: rect(0 0 0 0);
+}
+
+.logo {
+  font-family: Raleway;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.19;
+  color: var(--accent-color);
+}
+
+.logo--black {
+  color: var(--third-color);
+}
+
+.logo--white {
+  color: var(--second-priority-color);
 }
 
 .social {
@@ -140,6 +142,12 @@ body {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
+}
+
+.section {
+  background-color: var(--second-priority-color);
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .section-title {
@@ -370,10 +378,6 @@ body {
   padding-top: 24px;
   padding-bottom: 25px;
   margin-right: 93px;
-}
-
-.site-nav__logo--right {
-  color: var(--third-color);
 }
 
 .site-list__link,
@@ -624,10 +628,6 @@ body {
 }
 
 .footer__logo {
-  color: var(--second-priority-color);
-}
-
-.footer__logo--part {
   display: block;
   margin-bottom: 20px;
 }
