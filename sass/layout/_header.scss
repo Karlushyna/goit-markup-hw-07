@@ -18,9 +18,7 @@
   padding-bottom: 25px;
   margin-right: 93px;
 }
-.site-nav__logo--right {
-  color: var(--third-color);
-}
+
 .site-list__link,
 .contact-list__link {
   @extend %align-list;

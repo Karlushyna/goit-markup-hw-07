@@ -12,13 +12,3 @@ body {
   text-decoration: none;
   color: inherit;
 }
-.logo {
-  font-family: Raleway;
-  @include font(26px, 700, null, 1.19);
-  color: var(--accent-color);
-}
-.section {
-  background-color: var(--second-priority-color);
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
